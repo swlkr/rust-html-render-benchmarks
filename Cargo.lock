@@ -851,6 +851,7 @@ dependencies = [
  "maud",
  "serde",
  "tera",
+ "tinytemplate",
 ]
 
 [[package]]
@@ -925,6 +926,15 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.48",
+]
+
+[[package]]
+name = "tinytemplate"
+version = "1.2.1"
+source = "git+https://github.com/johnbartholomew/TinyTemplate?branch=sync#4eaccbc9dce1c40588fd1c5d7d3c535b469e5a15"
+dependencies = [
+ "serde",
+ "serde_json",
 ]
 
 [[package]]

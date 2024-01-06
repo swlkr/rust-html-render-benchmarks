@@ -8,6 +8,7 @@ These three projects are in the running:
 - [hyped](https://github.com/swlkr/hyped)
 - [maud](https://github.com/lambda-fairy/maud)
 - [tera](https://github.com/Keats/tera)
+- [tiny template](https://github.com/bheisler/TinyTemplate)
 
 ## Results
 
