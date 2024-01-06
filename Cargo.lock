@@ -362,6 +362,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "handlebars"
+version = "5.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "94eae21d01d20dabef65d8eda734d83df6e2dea8166788804be9bd6bc92448fa"
+dependencies = [
+ "log",
+ "pest",
+ "pest_derive",
+ "serde",
+ "serde_json",
+ "thiserror",
+]
+
+[[package]]
 name = "humansize"
 version = "2.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -846,10 +860,12 @@ version = "0.1.0"
 dependencies = [
  "askama",
  "divan",
+ "handlebars",
  "hyped",
  "lazy_static",
  "maud",
  "serde",
+ "serde_json",
  "tera",
  "tinytemplate",
 ]

@@ -12,6 +12,8 @@ tera = "1.19.1"
 serde = { version = "1.0.195", features = ["derive"] }
 lazy_static = "1.4.0"
 tinytemplate = { git = "https://github.com/johnbartholomew/TinyTemplate", branch = "sync" }
+handlebars = "5.0.0"
+serde_json = "1.0.111"
 
 [[bench]]
 name = "hyped"
@@ -31,4 +33,8 @@ harness = false
 
 [[bench]]
 name = "tinytemplate"
+harness = false
+
+[[bench]]
+name = "handlebars"
 harness = false
