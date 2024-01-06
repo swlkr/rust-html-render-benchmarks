@@ -8,6 +8,9 @@ hyped = { git = "https://github.com/swlkr/hyped" }
 divan = "0.1.8"
 maud = { version = "0.25.0" }
 askama = "0.12.1"
+tera = "1.19.1"
+serde = { version = "1.0.195", features = ["derive"] }
+lazy_static = "1.4.0"
 
 [[bench]]
 name = "hyped"
@@ -19,4 +22,8 @@ harness = false
 
 [[bench]]
 name = "askama"
+harness = false
+
+[[bench]]
+name = "tera"
 harness = false
