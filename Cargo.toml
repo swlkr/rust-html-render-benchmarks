@@ -4,9 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-hyped = { path = "/Users/sean/Developer/swlkr/hyped" }
+hyped = { git = "https://github.com/swlkr/hyped" }
 divan = "0.1.8"
 maud = { version = "0.25.0" }
+askama = "0.12.1"
 
 [[bench]]
 name = "hyped"
@@ -14,4 +15,8 @@ harness = false
 
 [[bench]]
 name = "maud"
+harness = false
+
+[[bench]]
+name = "askama"
 harness = false
