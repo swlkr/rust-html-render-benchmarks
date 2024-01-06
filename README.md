@@ -2,7 +2,7 @@
 
 This repo is a resurrection of [template-benchmark-rs](https://github.com/rosetta-rs/template-benchmark-rs) with divan instead of criterion.
 
-These three projects are in the running:
+These projects are in the running:
 
 - [askama](https://github.com/djc/askama)
 - [hyped](https://github.com/swlkr/hyped)
