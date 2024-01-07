@@ -5,11 +5,12 @@ This repo is a resurrection of [template-benchmark-rs](https://github.com/rosett
 These projects are in the running:
 
 - [askama](https://github.com/djc/askama)
+- [handlebars](https://github.com/sunng87/handlebars-rust)
 - [hyped](https://github.com/swlkr/hyped)
 - [maud](https://github.com/lambda-fairy/maud)
+- [minijinja](https://github.com/mitsuhiko/minijinja)
 - [tera](https://github.com/Keats/tera)
 - [tiny template](https://github.com/bheisler/TinyTemplate)
-- [handlebars](https://github.com/sunng87/handlebars-rust)
 
 ## Results
 
