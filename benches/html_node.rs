@@ -78,7 +78,7 @@ fn teams_render(teams: &Teams) -> String {
                     {
                         teams.teams.iter().enumerate().map(|(idx, team)| html! {
                             <li class={if idx == 0 { "champion" } else { "" }}>
-                                <b>{text!("{}", team.name)}: {text!("{}", team.score)}</b>
+                                <b>{text!("{}", team.name)}</b>: {text!("{}", team.score)}
                             </li>
                         })
                     }
