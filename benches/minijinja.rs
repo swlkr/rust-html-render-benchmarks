@@ -1,4 +1,4 @@
-use minijinja::{context, Environment};
+use minijinja::Environment;
 use serde::Serialize;
 fn main() {
     divan::main()
