@@ -16,6 +16,7 @@ handlebars = "5.0.0"
 serde_json = "1.0.111"
 minijinja = "1.0.10"
 html-node = "0.5.0"
+hypertext = "0.3.0"
 
 [[bench]]
 name = "hyped"
@@ -47,4 +48,8 @@ harness = false
 
 [[bench]]
 name = "html_node"
+harness = false
+
+[[bench]]
+name = "hypertext"
 harness = false
