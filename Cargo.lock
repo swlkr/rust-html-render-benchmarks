@@ -435,6 +435,32 @@ dependencies = [
 ]
 
 [[package]]
+name = "hypertext"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "884b584acba7afe7afbf469c167e89a68e8f3b86cf162f5f67062b46f0c6dae7"
+dependencies = [
+ "html-escape",
+ "hypertext-macros",
+ "itoa",
+ "ryu",
+]
+
+[[package]]
+name = "hypertext-macros"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d296a42408f1e26f444c38060b284b775e38e51ae04e8522c34e0175b4533691"
+dependencies = [
+ "html-escape",
+ "proc-macro2",
+ "proc-macro2-diagnostics",
+ "quote",
+ "rstml",
+ "syn 2.0.48",
+]
+
+[[package]]
 name = "iana-time-zone"
 version = "0.1.59"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -946,6 +972,7 @@ dependencies = [
  "handlebars",
  "html-node",
  "hyped",
+ "hypertext",
  "lazy_static",
  "maud",
  "minijinja",
