@@ -1,4 +1,4 @@
-use hypertext::{html_elements, maud, maud_move, GlobalAttributes, Renderable};
+use hypertext::{html_elements, maud, GlobalAttributes};
 
 fn main() {
     divan::main()
