@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 hyped = { git = "https://github.com/swlkr/hyped" }
 divan = "0.1.8"
-maud = { version = "0.25.0" }
+maud = { version = "0.26.0" }
 askama = "0.12.1"
 tera = "1.19.1"
 serde = { version = "1.0.195", features = ["derive"] }
@@ -14,9 +14,9 @@ lazy_static = "1.4.0"
 tinytemplate = { git = "https://github.com/johnbartholomew/TinyTemplate", branch = "sync" }
 handlebars = "5.0.0"
 serde_json = "1.0.111"
-minijinja = "1.0.10"
+minijinja = "2.0.1"
 html-node = "0.5.0"
-hypertext = "0.3.0"
+hypertext = "0.5.0"
 
 [[bench]]
 name = "hyped"
