@@ -1,4 +1,4 @@
-use hypertext::{html_elements, maud, GlobalAttributes};
+use hypertext::{html_elements, maud, GlobalAttributes, Renderable};
 
 fn main() {
     divan::main()
@@ -33,7 +33,7 @@ fn big_table_render(rows: &Vec<Vec<usize>>) -> String {
         }
     }
     .render()
-    .into_string()
+    .into_inner()
 }
 
 #[divan::bench]
@@ -87,7 +87,7 @@ fn teams_render(teams: &Teams) -> String {
         }
     }
     .render()
-    .into_string()
+    .into_inner()
 }
 
 struct Teams {
