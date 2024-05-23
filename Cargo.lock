@@ -317,6 +317,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "fhtml"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "38c91523ba403fb620827fbc01cc532af6c6cc42c211d7da0224f1abc906c103"
+dependencies = [
+ "fhtml-macros",
+]
+
+[[package]]
+name = "fhtml-macros"
+version = "0.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "df3cc42d47d802b9ee0f29e7323b6dcabb724d5ccc9b8469c697c820ad533e00"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.48",
+]
+
+[[package]]
 name = "generic-array"
 version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -969,6 +989,7 @@ version = "0.1.0"
 dependencies = [
  "askama",
  "divan",
+ "fhtml",
  "handlebars",
  "html-node",
  "hyped",
